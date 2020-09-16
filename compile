@@ -1,0 +1,5 @@
+#!/bin/bash
+# Script to quickly compile the program with the gsl library included.
+
+Gcc -Wall -c therm_diff.c
+gcc -L/usr/local/lib therm_diff.o -lgsl -lgslcblas -lm

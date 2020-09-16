@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jemgodden/CLionProjects/Thermal_Diffusion/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+math.h
+-
+getopt.h
+-
+gsl/gsl_errno.h
+-
+gsl/gsl_linalg.h
+-
+gsl/gsl_vector.h
+-
+
